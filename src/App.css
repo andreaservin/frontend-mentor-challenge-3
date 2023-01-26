@@ -1,11 +1,42 @@
+body {
+  background-color: hsl(218, 23%, 16%) !important;
+}
+
 .App {
-  text-align: center;
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 95vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: hsl(193, 38%, 86%);
+}
+
+.subcolor {
+  color: hsl(150, 100%, 66%);
+}
+
+.advice {
+  font-family: 'Fraunces', serif;
+}
+
+.spinner {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  color: #ffff;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
 }
