@@ -1,4 +1,5 @@
 import './App.css'
+import dado from '../public/dados.png'
 import {
   Alert,
   Button,
@@ -59,7 +60,7 @@ function App() {
               variant='success'
               onClick={handleGetAdvice}
             >
-              <img height={18} src='/dados.png' alt='refresh' />
+              <img height={18} src={dado} alt='refresh' />
             </Button>
           </OverlayTrigger>
         </Card.Footer>
