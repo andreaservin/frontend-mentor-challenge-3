@@ -1,5 +1,5 @@
 import './App.css'
-import dado from '../public/dados.png'
+import dado from './dados.png'
 import {
   Alert,
   Button,
