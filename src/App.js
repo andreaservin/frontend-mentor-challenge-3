@@ -1,5 +1,5 @@
 import './App.css'
-import dado from './dados.png'
+import { Dice5Fill } from 'react-bootstrap-icons'
 import {
   Alert,
   Button,
@@ -60,7 +60,7 @@ function App() {
               variant='success'
               onClick={handleGetAdvice}
             >
-              <img height={18} src={dado} alt='refresh' />
+              <Dice5Fill size={18} color='black' />
             </Button>
           </OverlayTrigger>
         </Card.Footer>
